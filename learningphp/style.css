@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: #37123c;
+	height: 50px;
+	padding: 20px;
+	text-align: center;
+}
+
+header img{
+	height: 50px;
+}
+
+nav{
+	height: 20px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #1b998b;
+	box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+nav a{
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 18px;
+	color: white;
+}
+
+main{
+	padding: 25px 100px;
+	color: #212529;
+}
+
+div{
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+	text-align: center;
+}
+
+form{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	display: inline-block;
+	width: 50%;
+	background: #f2f2f2;
+}
+
+input[type="text"], textarea{
+	margin-bottom: 20px;
+	width: 500px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+button, input[type="submit"]{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	background: #212529;
+	color: white;
+	font-size: 14px;
+}
+
+select{
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	width: 500px;
+	background: white;
+	color: #767676 !important;
+	font-size: 16px;
+}
+
+a {
+text-decoration: none;
+font-family: Georgia;
+font-size: 38px;
+color: #e71d36;
+}
+
+.red {
+color: red;
+}
